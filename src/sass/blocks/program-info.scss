@@ -1,0 +1,47 @@
+.program-info {
+
+}
+
+.program-info__top {
+  align-items: flex-start;
+  flex-direction: column;
+
+  @media (min-width: 768px) {
+    flex-direction: row;
+    align-items: center;
+  }
+}
+
+.program-info__list {
+  margin-bottom: 50px;
+}
+
+.program-info__title {
+  margin-bottom: 15px;
+  font-size: 22px;
+  color: #000;
+  font-family: 'Yeseva One', Arial, sans-serif;
+
+  @media (min-width: 992px) {
+    margin-bottom: 0;
+    font-size: 30px;
+  }
+}
+
+.program-info__price {
+  margin: 0;
+  font-size: 18px;
+  font-family: 'Yeseva One', Arial, sans-serif;
+  color: #c2ac1e;
+
+  @media (min-width: 992px) {
+    font-size: 24px;
+  }
+}
+
+.program-info__text {
+  margin-top: 24px;
+  max-width: 430px;
+  padding: 0 15px;
+  font-size: 15px;
+}

@@ -1,0 +1,20 @@
+.program-rooms {
+  padding-top: 30px;
+  padding-bottom: 30px;
+
+  @media (min-width: 992px) {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+}
+
+.program-rooms__title {
+  margin-bottom: 30px;
+  font-size: 18px;
+  font-weight: 700;
+  text-align: center;
+
+  @media (min-width: 992px) {
+    font-size: 20px;
+  }
+}

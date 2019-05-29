@@ -1,0 +1,47 @@
+.doctors {
+  margin-bottom: 50px;
+
+  .container {
+    position: relative;
+  }
+
+  .section-info {
+    margin-bottom: 40px;
+  }
+
+  .arr-prev {
+    display: none;
+
+    @media (min-width: 576px) {
+      display: block;
+      left: 10px;
+    }
+    @media (min-width: 1200px) {
+      left: 90px;
+    }
+    @media (min-width: 1380px) {
+      left: 15px;
+    }
+    @media (min-width: 1440px) {
+      left: -40px;
+    }
+  }
+  .arr-next {
+    display: none;
+
+    @media (min-width: 576px) {
+      display: block;
+      right: 10px;
+    }
+    @media (min-width: 1200px) {
+      right: 15px;
+    }
+    @media (min-width: 1440px) {
+      right: -40px;
+    }
+  }
+}
+
+.doctors__wrapper {
+  position: relative;
+}

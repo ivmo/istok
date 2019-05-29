@@ -1,0 +1,15 @@
+.stock-btn {
+  padding: 10px 14px;
+  color: #fff;
+  border: 1px solid #fff;
+  font-size: 15px;
+  line-height: 1.2em;
+  font-weight: 500;
+
+  &:hover {
+    border: 1px solid #d2bb24;
+    color: #fff;
+    background: rgba(210, 187, 36, 0.5);
+    text-decoration: none;
+  }
+}

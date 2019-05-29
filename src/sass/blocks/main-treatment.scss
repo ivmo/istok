@@ -1,0 +1,12 @@
+.main-treatment {
+  padding-top: 40px;
+  background: #f8f8f0;
+
+  @media (min-width: 576px) {
+    padding-bottom: 65px;
+  }
+
+  @media (min-width: 768px) {
+    padding-top: 65px;
+  }
+}

@@ -1,0 +1,35 @@
+table.serviceTable {
+  background-color: #F8F8F0;
+  width: 100%;
+  min-width: 760px;
+  text-align: left;
+  border-collapse: collapse;
+
+  td {
+    max-width: 364px;
+    padding: 8px;
+  }
+  th {
+    padding: 8px;
+  }
+  tbody {
+
+    tr {
+      border-top: 2px solid #fff;
+    }
+
+    td {
+      font-size: 14px;
+      color: #000000;
+    }
+  }
+
+  thead {
+
+    th {
+      font-size: 14px;
+      font-weight: bold;
+      color: #000000;
+    }
+  }
+}

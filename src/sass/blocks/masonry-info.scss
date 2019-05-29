@@ -1,0 +1,25 @@
+.masonry-info {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  background: #f8f8f0;
+
+  @media (min-width: 992px) {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+}
+
+.masonry-info__title {
+  margin-bottom: 30px;
+  font-weight: 700;
+  font-size: 18px;
+  text-align: center;
+
+  @media (min-width: 992px) {
+    font-size: 20px;
+  }
+}
+
+.masonry-info--bg-white {
+  background: #fff;
+}

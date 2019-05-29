@@ -1,0 +1,165 @@
+.main-promo {
+  margin-bottom: 25px;
+  padding-top: 37px;
+
+  @media (min-width: 768px) {
+    margin-bottom: 75px;
+    padding-top: 45px;
+  }
+
+  .section-title {
+    margin-bottom: 20px;
+
+    @media (min-width: 768px) {
+      margin-bottom: 40px;
+    }
+  }
+}
+
+.main-promo__inner {
+  margin-bottom: 50px;
+}
+
+.main-promo__video {
+  position: relative;
+  padding-bottom: 56.25%; /* задаёт высоту контейнера для 16:9 (если 4:3 — поставьте 75%) */
+  padding-top: 30px;
+  height: 0;
+  overflow: hidden;
+
+  iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+}
+
+.main-promo__plate {
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 2;
+  background: url("../img/video-bg.jpg") no-repeat;
+  background-size: cover;
+  background-position: center;
+  cursor: pointer;
+  text-decoration: none;
+
+  &:hover {
+    text-decoration: none;
+
+    .main-promo__play {
+      transform: scale(0.8);
+      background-color: #a50e2d;
+    }
+  }
+
+  &:before {
+    content: '';
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.3);
+  }
+}
+
+.main-promo__plate--hidden {
+  display: none !important;
+}
+
+.main-promo__title {
+  position: relative;
+  margin-bottom: 30px;
+  padding-top: 20px;
+  color: #fff;
+  font-size: 18px;
+  text-align: center;
+
+  @media (min-width: 992px) {
+    padding-top: 70px;
+  }
+
+  span {
+    display: block;
+    margin-top: 8px;
+    font-size: 12px;
+
+  }
+}
+
+.main-promo__play {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+  width: 70px;
+  height: 70px;
+  border-radius: 100%;
+  background-color: #fff;
+  transition: all 0.2s;
+
+  @media (min-width: 992px) {
+    width: 100px;
+    height: 100px;
+  }
+
+  &:after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: block;
+    width: 18px;
+    height: 23px;
+    padding-left: 8px;
+    margin: auto;
+    background: url("../img/play.png") no-repeat;
+    background-size: contain;
+    z-index: 3;
+    box-sizing: content-box;
+    background-origin: content-box;
+
+    @media (min-width: 992px) {
+      width: 25px;
+      height: 31px;
+    }
+  }
+}
+
+.main-promo__text {
+  padding: 36px 40px;
+  font-size: 14px;
+  background: #f8f8f0;
+
+  p {
+    margin: 0;
+    margin-bottom: 30px;
+    font-size: 14px;
+  }
+}
+
+.main-promo__more {
+  text-align: right;
+}
+
+.main-promo__link {
+  text-decoration: underline;
+  color: #a50e2d;
+
+  &:hover {
+    text-decoration: none;
+    color: #a50e2d;
+  }
+}

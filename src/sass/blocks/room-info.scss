@@ -1,0 +1,51 @@
+.room-info {
+  margin-bottom: 24px;
+
+  @media (min-width: 576px) {
+    margin-bottom: 44px;
+  }
+}
+
+.room-info__inner {
+  flex-direction: column-reverse;
+  margin-bottom: 30px;
+
+  @media (min-width: 992px) {
+    flex-direction: row;
+  }
+}
+
+.room-info__description {
+  padding: 20px 20px 30px;
+  background: #f8f8f0;
+
+  @media (min-width: 576px) {
+    padding: 40px 43px;
+  }
+  @media (min-width: 992px) {
+    margin-bottom: 30px;
+  }
+}
+
+.room-info__title {
+  font-size: 30px;
+  margin-bottom: 5px;
+  font-family: 'Yeseva One', Arial, sans-serif;
+}
+
+.room-info__subtitle {
+  font-size: 18px;
+}
+
+.room-info__text {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-size: 12px;
+  line-height: 1.2rem;
+}
+
+.room-info__price {
+  font-size: 24px;
+  font-family: 'Yeseva One', Arial, sans-serif;
+  color: #c2ac1e;
+}

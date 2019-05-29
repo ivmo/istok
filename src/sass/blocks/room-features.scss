@@ -1,0 +1,135 @@
+.room-features {
+  max-width: 840px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 30px;
+
+  @media (min-width: 576px) {
+    margin-top: 50px;
+  }
+
+  .col {
+    width: 50%;
+    flex-basis: auto;
+
+    @media (min-width: 480px) {
+      width: 174px;
+    }
+
+    @media (min-width: 992px) {
+      width: 20%;
+    }
+  }
+}
+
+.room-features__item {
+  position: relative;
+  padding-top: 80px;
+  font-size: 12px;
+  line-height: 1.4em;
+  font-weight: 700;
+  text-transform: uppercase;
+  text-align: center;
+  margin-bottom: 30px;
+
+  &:before {
+    content: '';
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 5px;
+    display: block;
+    background-image: url('../img/icons.svg');
+    background-repeat: no-repeat;
+  }
+}
+
+.room-features__item--bed {
+
+  &:before {
+    width: 61px;
+    height: 61px;
+    background-position: 0 -1079px;
+  }
+}
+
+.room-features__item--shower {
+
+  &:before {
+    width: 35px;
+    height: 61px;
+    background-position: 0 -864px;
+  }
+}
+
+.room-features__item--wifi {
+
+  &:before {
+    width: 62px;
+    height: 45px;
+    background-position: 0 -925px;
+  }
+}
+
+.room-features__item--fridge {
+
+  &:before {
+    width: 41px;
+    height: 61px;
+    background-position: 0 -803px;
+  }
+}
+
+.room-features__item--tv {
+
+  &:before {
+    width: 61px;
+    height: 55px;
+    background-position: 0 -1317px;
+  }
+}
+
+.room-features__item--drier {
+
+  &:before {
+    width: 61px;
+    height: 61px;
+    background-position: 0 -519px;
+  }
+}
+
+.room-features__item--table {
+
+  &:before {
+    width: 61px;
+    height: 61px;
+    background-position: 0 -458px;
+  }
+}
+
+.room-features__item--wardrope {
+
+  &:before {
+    width: 45px;
+    height: 61px;
+    background-position: 0 -201px;
+  }
+}
+
+.room-features__item--kettle {
+
+  &:before {
+    width: 51px;
+    height: 61px;
+    background-position: 0 -660px;
+  }
+}
+
+.room-features__item--air {
+
+  &:before {
+    width: 61px;
+    height: 45px;
+    background-position: 0 -262px;
+  }
+}
